@@ -2,7 +2,6 @@ import { List, Items, BtnDelete } from './ContactList.styled';
 import { useDispatch, useSelector } from 'react-redux';
 import { getContacts, getFilter } from '../../redux/selectors';
 import { deleteContacts } from '../../redux/slice';
-import { nanoid } from 'nanoid';
 
 const ContactList = () => {
   const dispatch = useDispatch();
